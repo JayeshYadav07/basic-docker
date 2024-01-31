@@ -16,4 +16,4 @@ COPY index.js index.js
 RUN npm install
 
 # running the server
-ENTRYPOINT [ "node", "index.js" ]
+ENTRYPOINT [ "node-dev", "index.js" ]
